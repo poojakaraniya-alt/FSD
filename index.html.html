@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ECOMMERCE WEB</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+            margin: 20px;
+        }
+        h1{
+            color: #2E4600;
+            text-align: center;
+        }
+        p{
+            color:#5D473A;
+            font-size: 18px;
+        }
+        button{
+            background-color: #8B4513;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>CLOTHINGS</h1>
+    <img src="black-classic-shirt.jpg" alt="SHOPPING CART" width="300" height="400">
+	<img src="blue-shirt.webp" alt="SHOPPING2 CART" width="300" height="400">
+	<img src="lightblue.avif" alt="SHOPPING CART" width="300" height="400">
+	<img src="checkedshirt.avif" alt="SHOPPING CART" width="300" height="400">
+	<img src="bigchecked.webp" alt="SHOPPING CART" width="300" height="400">
+    <p>SHIRTS FOR BOTH MEN AND WOMEN.MATERIAL:LINEN.FULL SLEEVED SHIRT</p>
+	<img src="bootcut.avif" alt="SHOPPING CART" width="300" height="400">
+	<img src="cargo.jpg" alt="SHOPPING CART" width="300" height="400">
+	<img src="blackj.avif" alt="SHOPPING CART" width="300" height="400">
+	<img src="formals.webp" alt="SHOPPING CART" width="300" height="400">
+	<img src="grey.webp" alt="SHOPPING CART" width="300" height="400">
+	<p>TROUSERS FOR BOTH MEN AND WOMEN.COMFORTABLE AND STRETCHABLE</p>
+    <p><h3>1000 rupees</h3></p>
+    
+    <form>
+		<p>shirts:</p>
+			<select id="design" name="design">
+				<option value="black">black</option>
+				<option value="blue">blue</option>
+				<option value="light-blue">light-blue</option>
+				<option value="checked">checked</option>
+				<option value="big-checked">big-checked</option>
+			</select>
+		<p>pants:</p>
+			<select id="design" name="design">
+				<option value="bootcut">bootcut</option>
+				<option value="cargo">cargo</option>
+				<option value="black">black</option>
+				<option value="formals">formals</option>
+				<option value="grey">grey</option>
+			</select>
+		<p>gender:</p>
+        <select id="gender" name="gender">
+            <option value="F">F</option>
+            <option value="M">M</option>
+		</select>
+        <p>Sizes Available FOR SHIRT:</p>
+        <select id="sizes" name="Sizes">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+            <option value="XXXL">XXXL</option>
+        </select>
+		<p>Sizes Available FOR TROUSERS:</p>
+        <select id="sizes" name="Sizes">
+            <option value="26">26</option>
+            <option value="28">28</option>
+            <option value="30">30</option>
+            <option value="32">32</option>
+            <option value="34">34</option>
+            <option value="36">36</option>
+        </select>
+        <p>Quantity</p>
+        <input type="text" id="qty" name="qty" required>
+        <br>
+        <br>
+        <button type="Add To Cart">Add To Cart</button>
+
+    </form>
+
+
+</body>
+</html>
