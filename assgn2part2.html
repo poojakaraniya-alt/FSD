@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation and jQuery Example</title>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styless.css">
+
+  <!-- External JS -->
+  <script src="scripts.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h2 id="heading">Welcome to DOM Manipulation</h2>
+    <p class="info">This text will be changed dynamically using JavaScript.</p>
+
+    <!-- Downloadable Image -->
+    <a href="https://via.placeholder.com/150" download="shirt-image">
+      <img id="myImage" src="https://via.placeholder.com/150" alt="Placeholder Image" width="200">
+    </a>
+
+    <br><br>
+
+    <button id="changeTextBtn">Change Text</button>
+    <button id="changeColorBtn">Change Color</button>
+    <button id="changeImageBtn">Change Image</button>
+    <button id="addNodeBtn">Add Node</button>
+    <button id="deleteNodeBtn">Delete Node</button>
+
+    <hr>
+
+    <form id="myForm">
+      <label>Enter Name: </label>
+      <input type="text" id="nameInput" placeholder="Enter name">
+      <button id="formBtn" type="button">Get Form Data</button>
+    </form>
+
+    <p id="output"></p>
+
+    <button id="jqBtn">Click to Change with jQuery</button>
+  </div>
+</body>
+</html>
